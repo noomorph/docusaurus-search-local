@@ -260,7 +260,7 @@ export const tokenize = (input) => lunr.tokenizer(input)
   generated += `export const mylunr = lunr;\n`;
 
   return {
-    name: "@cmfcmf/docusaurus-search-local",
+    name: "@noomorph/docusaurus-search-local",
     getThemePath() {
       return path.resolve(__dirname, "..", "..", "lib", "client", "theme");
     },

@@ -1,7 +1,7 @@
 # Offline / Local Search for Docusaurus v2+
 
-![Version](https://img.shields.io/npm/v/@cmfcmf/docusaurus-search-local?style=flat-square)
-![License](https://img.shields.io/npm/l/@cmfcmf/docusaurus-search-local?style=flat-square)
+![Version](https://img.shields.io/npm/v/@noomorph/docusaurus-search-local?style=flat-square)
+![License](https://img.shields.io/npm/l/@noomorph/docusaurus-search-local?style=flat-square)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 ![GitHub issues](https://img.shields.io/github/issues/cmfcmf/docusaurus-search-local?style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/cmfcmf/docusaurus-search-local?style=flat-square)
@@ -26,13 +26,13 @@ Feature Highlights:
 ## Installation
 
 ```bash
-npm install @cmfcmf/docusaurus-search-local
+npm install @noomorph/docusaurus-search-local
 ```
 
 or
 
 ```bash
-yarn add @cmfcmf/docusaurus-search-local
+yarn add @noomorph/docusaurus-search-local
 ```
 
 ## Usage
@@ -42,14 +42,14 @@ Add this plugin to the `plugins` array in `docusaurus.config.js`.
 ```js
 module.exports = {
   // ...
-  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
+  plugins: [require.resolve("@noomorph/docusaurus-search-local")],
 
   // or, if you want to specify options:
 
   // ...
   plugins: [
     [
-      require.resolve("@cmfcmf/docusaurus-search-local"),
+      require.resolve("@noomorph/docusaurus-search-local"),
       {
         // Options here
       },

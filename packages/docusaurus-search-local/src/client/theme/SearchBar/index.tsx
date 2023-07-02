@@ -114,7 +114,7 @@ const SearchBar = () => {
     parentCategoriesBoost,
     indexDocSidebarParentCategories,
     maxSearchResults,
-  } = usePluginData("@cmfcmf/docusaurus-search-local") as DSLAPluginData;
+  } = usePluginData("@noomorph/docusaurus-search-local") as DSLAPluginData;
 
   const history = useHistory<DSLALocationState>();
 

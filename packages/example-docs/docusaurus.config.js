@@ -125,7 +125,7 @@ module.exports = {
     ],
   ],
   plugins: [
-    [require.resolve("@cmfcmf/docusaurus-search-local"), {
+    [require.resolve("@noomorph/docusaurus-search-local"), {
       indexPages: true
     }],
   ]
